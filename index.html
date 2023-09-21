@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Costa</title>
+</head>
+<body>
+   
+</body>
+<body>
+
+</body>
+</html>
+<html>
+    <head>
+        <style>
+            Body{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  min-height: 90vh;
+                  min-width: 90vh;
+                 }
+
+                 a { 
+                  text-decoration: none;
+                 }
+
+                 .box {
+                  font-size: 50px;
+                  color: white;
+                  height: 625px;
+                  width: 1300px;
+                  border-radius: 20px;
+                  background: #191919;
+                  flex-direction: column;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                 }
+
+                 .buttons-container {
+                  display: flex;
+                  justify-content: space-around;
+                  height: 50px;
+                  width: 150px;
+                 }
+                 button {
+                  height: 30px;
+                  width: 50px;
+                  background: white;
+                  border-radius: 5px;
+                  color: blue;
+                  font-weight: 600;
+                }
+         </style> 
+  </head>
+    <body>
+        <div class="box">
+        <p>Vamos ao cinema BB??</p>
+      <div class="buttons-container">
+          <button>
+            <a href="https://cinearaujo.com.br">Sim</a>
+          </button>
+         <button id="no">Não</button>
+      </div>
+    </body>
+    <body>
+      
+      
+    </body>
+    <script>
+        let button = document.getElementById('no');
+        let height = window.innerHeight - 50;
+        let width = window.innerWidth - 50;
+
+        button.addEventListener('mouseover', function() {
+            button.style.position = "absolute";
+            button.style.top = Math.random() * height + "px";
+            button.style.left = Math.random() * width + "px";
+        } )
+    </script>
+</html>
